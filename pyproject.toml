@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "github-actions"
+version = "0.1.0"
+description = "dependency management"
+authors = ["Arun Ravindran <arun.ravindran@charlotte.edu>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = "^0.34.0"
+pytest = "^8.3.5"
+fastapi = "^0.115.12"
+httpx = "^0.28.1"
+
